@@ -14,6 +14,17 @@ public class GorillaTest {
 		harambe.climb();
 		System.out.println(harambe.getEnergyLevel());
 		
+		
+		Bat batman = new Bat();
+		System.out.println(batman.getEnergyLevel());
+		batman.attackTown();
+		batman.attackTown();
+		batman.attackTown();
+		batman.eatHumans();
+		batman.eatHumans();
+		batman.fly();
+		batman.fly();
+		System.out.println(batman.getEnergyLevel());
 	}
 
 }
